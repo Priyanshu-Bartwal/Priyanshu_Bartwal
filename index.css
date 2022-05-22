@@ -1,0 +1,28 @@
+.nav-link:hover {
+    color: rgb(230, 0, 127);
+}
+.pink {
+    font-weight:500;
+    color: rgb(230, 0, 127);
+}
+.nav-link {
+    display: block;
+    padding: 0.5rem 2rem;
+}
+.btn{
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+.btn:hover{
+    background-color: white;
+    color: rgb(230, 0, 127);
+    border-color: black
+}
+.form-label:focus{
+    box-shadow: 0 0 10px rgb(230, 0, 127);
+}
+.right-hero{
+    text-align: right;
+}
+/*  */
