@@ -1,62 +1,196 @@
-.nav-link:hover {
-    color: rgb(230, 0, 127);
-}
-.pink {
-    font-weight:500;
-    color: rgb(230, 0, 127);
-}
-.nav-link {
-    display: block;
-    padding: 0.5rem 2rem;
-}
-.btn{
-    background-color: white;
-    color: black;
-    border-color: black;
-}
-.btn:hover{
-    background-color: white;
-    color: rgb(230, 0, 127);
-    border-color: black
-}
-.form-label:focus{
-    box-shadow: 0 0 10px rgb(230, 0, 127);
-}
-.right-hero{
-    text-align: right;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Oswald:wght@700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 /*  */
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
+/* navbar */
+/*  */
+.navbar{
+    display: flex;
+    background-color: #F8F9FA;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftNavBar{
+    width: 50%;
+}
+.leftNavBar img{
+    width: 20%;
+}
+
+.rightNavBar{
+    width: 50%;
+    text-align: end;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+.rightNavBar a{
     text-decoration: none;
-    border-radius: 50%;
-  }
-  
-  /* Add a hover effect if you want */
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
-  .fa-facebook {
-    background: #3B5998;
+    padding: 10px;
+    color: #000000a4;
+    font-weight: bold;
+}
+.rightNavBar a:hover{
+    color: rgb(230, 0, 127);
+}
+.leftBorder{
+    border-left: 5px solid rgb(230, 0, 127);
+}
+.bottomBorder{
+    border-bottom: 2px solid rgb(230, 0, 127);
+}
+.rightNavBar .activelink{
+    color: black;
+}
+.rightNavBar .activelink:hover{
+    color: black;
+}
+/*  */
+/* Content */
+/*  */
+.container{
+    margin: auto;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.textContent{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+.heading{
+    font-family: 'Oswald', sans-serif;
+    font-size: 250%;
+    padding: 2px;
+    line-height: 50px;
+}
+.content{
+    padding-top: 10px;
+    padding-left: 2px;
+    font-size: 16px;
+}
+
+.imageContent{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+.imageContent img{
+    width: 100%;
+}
+/*  */
+/* footer */
+/*  */
+.footer{
+    background-color: rgb(23, 23, 23);
     color: white;
-  }
-  
-  /* Twitter */
-  .fa-twitter {
-    background: #55ACEE;
+    display: flex;
+    width: 100%;
+    height: 400px;
+    padding-top: 50px;
+}
+
+.leftFooter{
+    width: 33%;
+    padding: 40px;
+
+    text-align: center;
+}
+.leftFooterContent{
+    border-left: 5px solid rgb(230, 0, 127);
+}
+.leftFooterContent h2{
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.leftFooterContent h3{
+    font-size: 15px;
+    font-weight: 100;
+    padding: 8px;
+    font-weight: 600;
+}
+.leftFooter p{
+    padding: 4px;
+    font-size: 15px;
+    line-height: 25px;
+}
+.fa-heart{
+    color: red;
+}
+
+
+.middleFooter{
+    width: 33%;
+    padding: 40px;
+}
+.middleFooter h2{
+    font-size: 15px;
+    padding-bottom: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+.middleFooter p{
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 25px;
+}
+.socials{
+    display: flex;
+}
+.circle{
+    background-color: white;
+    margin: 5px;
+    padding: 2px;
+    border-radius:15px;
+    height: 25px;
+    width: 25px;
+    align-items: center;
+    justify-content: center;
+    /* text-align: center; */
+}
+.circle:hover{
+    background-color: rgb(230, 0, 127);
+    cursor: pointer;
+}
+.socials i{
+    color: black;
+    width: 100%;
+    margin: 4.5px;
+
+}
+
+.rightFooter{
+    width: 33%;
+    padding: 40px;
+}
+.rightFooter h2{
+    font-size: 15px;
+    padding-bottom: 8px;
+    font-family: 'Montserrat', sans-serif;
+}
+.usefulLinks{
+    padding-top: 20px;
+    font-size: 15px;
+    margin-left: 14px;
+}
+.rightFooter ul{
+    list-style-type:circle;
+}
+.usefulLinks a{
+    text-decoration: none;
     color: white;
-  }
-  .onlyLeader{
-      font-size:medium;
-      /* padding-top: 8px;
-      padding-bottom: 4px; */
-      /* padding-inline-start: 2px; */
-      /* color: rgb(118, 118, 118);  */
-  }
+}
+.usefulLinks a:hover{
+    color: rgb(230, 0, 127);
+}

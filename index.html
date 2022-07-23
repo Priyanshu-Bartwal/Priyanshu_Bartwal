@@ -1,274 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="./index.css">
+    <!-- favicons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-  <body>
-    <!-- navbar -->
-    <nav class="navbar sticky-top navbar-expand-lg bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="./navbar logo.png" alt="image" width="50%" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active pink" aria-current="page" href="#"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Hult Prize Winners</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://www.edcnitd.co.in/">EDC</a>
-            </li>
-          </ul>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="leftNavBar">
+            <img src="./navbar logo.png" alt="">
         </div>
-      </div>
+        <div class="rightNavBar">
+            <a href="#" target="_blank" rel="noopener noreferrer" class="activelink leftBorder">Home</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">Register</a>
+            <a href="#" target="_blank" rel="noopener noreferrer">Past Winners</a>
+            <a href="https://www.edcnitd.co.in/" target="_blank" rel="noopener noreferrer">EDC</a>
+        </div>
     </nav>
-    <!-- hero section left -->
-    <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
-          <img
-            src="./Trouvaillieur.png"
-            class="d-block mx-lg-auto img-fluid"
-            alt="Trouvaillieur"
-            width="700"
-            height="500"
-            loading="lazy"
-          />
-        </div>
-        <div class="col-lg-6">
-          <h1 class="display-5 fw-bold lh-1 mb-3">
-            Hult Prize 2022 Winners
-          </h1>
-          <p class="lead">
-            Quickly design and customize responsive mobile-first sites with
-            Bootstrap, the world’s most popular front-end open source toolkit,
-            featuring Sass variables and mixins, responsive grid system,
-            extensive prebuilt components, and powerful JavaScript plugins.
-          </p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
-              Primary
-            </button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-              Default
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- hero section right -->
-    <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <!-- <div class="col-10 col-sm-8 col-lg-6">
-          <img
-            src="./AAKARSH.png"
-            class="d-block mx-lg-auto img-fluid"
-            alt="AAKARSH"
-            width="700"
-            height="500"
-            loading="lazy"
-          />
-        </div> -->
-        <div class="col-10 col-sm-8 col-lg-6">
-          <h1 class="display-5 fw-bold lh-1 mb-3 right-hero">
-            Hult Prize 2022 Runnerups 
-          </h1>
-          <p class="lead right-hero">
-            Quickly design and customize responsive mobile-first sites with
-            Bootstrap, the world’s most popular front-end open source toolkit,
-            featuring Sass variables and mixins, responsive grid system,
-            extensive prebuilt components, and powerful JavaScript plugins.
-          </p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
-              Primary
-            </button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-              Default
-            </button>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          <img
-            src="./AAKARSH.png"
-            class="d-block mx-lg-auto img-fluid"
-            alt="AAKARSH"
-            width="700"
-            height="500"
-            loading="lazy"
-          />
-        </div>
-      </div>
-    </div>
-    <!-- hero section left -->
-    <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-lg-6">
-          <img
-            src="./Homely Bites.png"
-            class="d-block mx-lg-auto img-fluid"
-            alt="Homely Bites"
-            width="700"
-            height="500"
-            loading="lazy"
-          />
-        </div>
-        <div class="col-10 col-sm-8 col-lg-6">
-          <h1 class="display-5 fw-bold lh-1 mb-3">
-            Hult Prize 2022 Runnerups 
-          </h1>
-          <p class="lead">
-            Quickly design and customize responsive mobile-first sites with
-            Bootstrap, the world’s most popular front-end open source toolkit,
-            featuring Sass variables and mixins, responsive grid system,
-            extensive prebuilt components, and powerful JavaScript plugins.
-          </p>
-          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">
-              Primary
-            </button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">
-              Default
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- registration form -->
-    <section class="vh-100 gradient-custom">
-      <div class="container col-xxl-6 mx-5 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-              <div class="card-body p-4 p-md-5">
-                <h1 class="display-5 fw-bold lh-1 mb-3">Registration Form</h3>
-                <h2 class="lead">Only Leader should fill the form</h2>
-                <form>
-                  <div class="row">
-                    <div class="col-md-6 mb-4">
-                      <!-- <div class="form-outline">
-                        <input type="text" id="teamName" class="form-control form-control-lg" />
-                        <label class="form-label" for="teamName">Team Name</label>
-                      </div> -->
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-6 mb-4 d-flex align-items-center">
-                      <div class="form-outline datepicker w-100">
-                        <input type="text" class="form-control form-control-lg" id="teamLeader" />
-                        <label for="teamLeader" class="form-label">Team Name</label>
-                      </div>
-                    </div>
-                    <div class="col-md-6 mb-4">
-                      <div class="form-outline">
-                        <input type="text" id="member1" class="form-control form-control-lg" />
-                        <label class="form-label" for="member1">Team Leader Name</label>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-6 mb-4 pb-2">
-                      <div class="form-outline">
-                        <input type="text" id="member2" class="form-control form-control-lg" />
-                        <label class="form-label" for="member2">Email id</label>
-                      </div>
-                    </div>
-                    <div class="col-md-6 mb-4 pb-2">
-                      <div class="form-outline">
-                        <input type="text" id="member3" class="form-control form-control-lg" />
-                        <label class="form-label" for="member3">Phone no.</label>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- <div class="row">
-                    <div class="col-12">
-                      <select class="select form-control-lg">
-                        <option value="1" disabled>Choose option</option>
-                        <option value="2">Subject 1</option>
-                        <option value="3">Subject 2</option>
-                        <option value="4">Subject 3</option>
-                      </select>
-                      <label class="form-label select-label">Choose option</label>
-                    </div>
-                  </div> -->
-                  <div class="mt-4 pt-2">
-                    <!-- Button trigger modal -->
-                    <input type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#staticBackdrop" value="Invite "/>
 
-                    <!-- Modal -->
-                    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                      <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="staticBackdropLabel">Share this invite link to your team members</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                          </div>
-                          <div id="link" class="modal-body">
-                            http://127.0.0.1:5500/addTeamMembers.html
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-primary" id="copyLink">Copy Link</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+    <section>
+        <div class="container">
+            <div class="textContent">
+                <h1 class="heading">
+                     What is the Hult Prize?
+                </h1>
 
-                </form>
-              </div>
+                <p class="content">
+                    The Hult Prize challenges young people around the world to solve 
+                    the planet's most pressing issues through social entrepreneurship.
+                </p>
             </div>
-          </div>
+            <div class="imageContent">
+                <img src="./pic1.png" alt="">
+            </div>
         </div>
-      </div>
+
+        <div class="container">
+            <div class="imageContent">
+                <img src="./pic2.png" alt="">
+            </div>
+            <div class="textContent">
+                <h1 class="heading">
+                    Meet the Startups Attending to the 2022 Global Accelerator
+                </h1>
+
+                <p class="content">
+                    Everyone we work with has a story worth hearing. Learn more about the startups 
+                    attending our 2022 Accelerator Program in Boston, USA.
+                </p>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="textContent">
+                <h1 class="heading">
+                    Getting the World Back to Work!
+                </h1>
+
+                <p class="content">
+                    The 2022 Hult Prize is focused on creating meaningful work opportunities at scale.
+                    <br><br>
+                    <b>Please note:</b> entries for this year's Hult Prize are now closed.
+                </p>
+            </div>
+            <div class="imageContent">
+                <img src="./pic3.png" alt="">
+            </div>
+        </div>
     </section>
-    <!-- footer -->
-    <footer class="d-flex flex-wrap justify-content-between align-items-center mx-4 py-3 my-4 border-top">
-      <div class="col-md-4 d-flex align-items-center">
-        <span class="mb-3 mb-md-0 text-muted">© 2022 EDC. All Rights Reserved.</span>
-      </div>
-      <div class="col-md-4 d-flex align-items-center">
-        <span class="mb-3 mb-md-0 text-muted">Contact Us</span>
-        <a href="#https://www.facebook.com/edc.nitd" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-      </div>
-  
-      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-        <li class="ms-3"><a class="text-muted" href="https://www.facebook.com/edc.nitd"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-        <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-      </ul>
+
+    <footer class="footer">
+        <div class="leftFooter">
+            <div class="leftFooterContent">
+                <h2>Entrepreneurship <br>
+                    Development Cell</h2>
+                <h3>  Nit Durgapur</h3>
+            </div>
+            <p>Made with <i class="fa fa-heart" aria-hidden="true"></i> by Web-Team
+            <br>© 2022 EDC. All Rights Reserved.</p>
+        </div>
+
+        <div class="middleFooter">
+            <div class="bottomBorder">
+                <h2>
+                    CONTACT US
+                </h2>
+            </div>
+            <p>
+                <i class="fa fa-map-marker"></i> : Mahatma Gandhi Avenue,<br>
+                                                   A-Zone, Durgapur, West Bengal <br>
+                                                   Durgapur: 713209
+                <br>
+                <i class="fa fa-phone"></i> : +91 82503 23647 (Sukanya Dutta)
+                <br>
+                <i class="fa fa-envelope-o"></i> : edc@nitdgp.ac.in
+            </p>
+            <div class="socials">
+                <div class="circle">
+                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter"></i></a>
+                </div>
+                <div class="circle">
+                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a>
+                </div>
+                <div class="circle">
+                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a>
+                </div>
+                <div class="circle">
+                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-youtube"></i></a>
+                </div>
+                <div class="circle">
+                <a href="#" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="rightFooter">
+            <div class="bottomBorder">
+                <h2>
+                    USEFUL LINKS
+                </h2>
+            </div>
+                <div class="usefulLinks">
+                    <ul>
+                        <li> <a href="#" target="_blank" rel="noopener noreferrer">Home</a></li>
+                    </ul>
+                </div>
+        </div>
     </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-      crossorigin="anonymous"
-    ></script>
-    <script src="index.js"></script>
-  </body>
+</body>
 </html>
