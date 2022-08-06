@@ -86,7 +86,7 @@
     background-color: #F8F9FA;
     height: 152px;
     overflow: hidden;
-    transition: height 1s;
+    transition: height 1s ease-in-out;
 }
 .navbar-resp a{
     display: flex;
@@ -105,10 +105,12 @@
     color: rgb(230, 0, 127);
 }
 .visible{
-    visibility: hidden;
+    /* visibility: hidden; */
     height: 0px;
+    transition: height 1s ease-in-out;
 }
 
+/* navbar responsive */
 @media only screen and (max-width: 970px) {
     .rightNavBar a{
         visibility: hidden;
@@ -260,4 +262,21 @@
 }
 .usefulLinks a:hover{
     color: rgb(230, 0, 127);
+}
+
+/* footer responsive */
+@media only screen and (max-width: 970px){
+    .footer{
+        flex-direction: column;
+        height: 800px;
+    }
+    .leftFooter{
+        width: 100%;
+    }
+    .middleFooter{
+        width: 40%;
+    }
+    .rightFooter{
+        width: 40%;
+    }
 }
