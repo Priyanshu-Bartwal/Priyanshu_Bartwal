@@ -27,6 +27,8 @@
     display: flex;
     background-color: #F8F9FA;
     height: 60px;
+    position: fixed;
+    width: 100%;
     justify-content: center;
     align-items: center;
 }
@@ -112,6 +114,14 @@
 
 /* navbar responsive */
 @media only screen and (max-width: 970px) {
+    /* .navbar{
+        position: fixed;
+    } */
+    .navbar-resp{
+        position: fixed;
+        width: 100%;
+        margin-top: 60px;
+    }
     .rightNavBar a{
         visibility: hidden;
     }

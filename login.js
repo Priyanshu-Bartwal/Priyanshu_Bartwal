@@ -19,17 +19,17 @@ signupLink.onclick = (()=>{
     return false;
 });
 
-let mailid = document.getElementById("mailid");
-let password = document.getElementById("password");
+// let mailid = document.getElementById("mailid");
+// let password = document.getElementById("password");
 
-let btnLogin = document.getElementById("btnLogin")
+// let btnLogin = document.getElementById("btnLogin")
 
-btnLogin.addEventListener('click',()=>{
-    if ((mailid.value == "bartwalpriyanshu00@gmail.com") && (password.value == "1234")) {
-        window.location.href = "./index.html";
-        console.log("good");
-    }
-    else{
-        alert("invalid Username or Password")
-    }
-});
+// btnLogin.addEventListener('click',()=>{
+//     if ((mailid.value == "bartwalpriyanshu00@gmail.com") && (password.value == "1234")) {
+//         window.location.href = "./index.html";
+//         console.log("good");
+//     }
+//     else{
+//         alert("invalid Username or Password")
+//     }
+// });
