@@ -9,6 +9,7 @@ window.setTimeout(() => {
 // })
 
 let navbarResp = document.getElementById("navbar-resp");
+let opacity = document.getElementById("opacity");
 let burger = document.getElementById("burger");
 let line1 = document.getElementById("line-1");
 let line2 = document.getElementById("line-2");
@@ -17,6 +18,7 @@ let line3 = document.getElementById("line-3");
 burger.addEventListener('click', () =>{
     console.log("visible")
     navbarResp.classList.toggle("visible");
+    opacity.classList.toggle("opacity");
 });
 
 burger.addEventListener('mouseover', ()=>{

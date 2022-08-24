@@ -35,6 +35,7 @@ html,body{
   margin: 30px;
   background: #fff;
   padding: 30px;
+  padding-bottom: 0px;
   border-radius: 5px;
   box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
 }
@@ -153,7 +154,7 @@ form .field input:focus::placeholder{
 }
 .form-inner form .signup-link{
   text-align: center;
-  margin-top: 30px;
+  margin-top: 8px;
 }
 .form-inner form .pass-link a,
 .form-inner form .signup-link a{

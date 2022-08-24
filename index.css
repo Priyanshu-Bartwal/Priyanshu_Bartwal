@@ -9,6 +9,20 @@
 .body{
     width: 100%;
 }
+
+/*  */
+/* opacity */
+/*  */
+.opacity{
+    width: 100%;
+    height: 100%;
+    opacity: 70%;
+    z-index: 10;
+    background-color: white;
+    position: fixed;
+    /* transition: opacity 1s ease-in; */
+}
+
 /*  */
 /* preloader */
 /*  */
@@ -24,6 +38,7 @@
 /* navbar */
 /*  */
 .navbar{
+    z-index: 20;
     display: flex;
     background-color: #F8F9FA;
     height: 60px;
@@ -85,10 +100,11 @@
 }
 
 .navbar-resp{
+    z-index: 15;
     background-color: #F8F9FA;
     height: 152px;
     overflow: hidden;
-    transition: height 1s ease-in-out;
+    transition: height 0.7s ease-in-out;
 }
 .navbar-resp a{
     display: flex;
@@ -109,7 +125,7 @@
 .visible{
     /* visibility: hidden; */
     height: 0px;
-    transition: height 1s ease-in-out;
+    transition: height 0.7s ease-in-out;
 }
 
 /* navbar responsive */
@@ -265,6 +281,7 @@
 }
 .rightFooter ul{
     list-style-type:circle;
+    margin-top: 5px;
 }
 .usefulLinks a{
     text-decoration: none;
@@ -273,6 +290,7 @@
 .usefulLinks a:hover{
     color: rgb(230, 0, 127);
 }
+
 
 /* footer responsive */
 @media only screen and (max-width: 970px){

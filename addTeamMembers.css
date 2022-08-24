@@ -11,6 +11,11 @@ html,body{
   height: 100%;
   width: 100%;
   place-items: center; 
+   
+  background-image: url("../images/banner1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(230, 0, 127);
   /* background-image: url("../images/banner1.jpg");
   background-repeat: no-repeat;
   background-size: cover; */
@@ -20,12 +25,21 @@ html,body{
   background: crimson;
   color: #fff;
 }
+.logo{
+  width: 170px;
+  /* min-height: 60px; */
+  display: block;
+  margin: auto;
+  /* padding-bottom: 10px; */
+}
 .wrapper{
   overflow: hidden;
   /* max-width: 390px; */
-  width: 90vw;
+  width: 50vw;
   background: #fff;
-  padding: 50px;
+  padding: 40px;
+  padding-top: 30px;
+  padding-bottom: 8px;
   border-radius: 5px;
   box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
 }
@@ -116,13 +130,15 @@ input[type="radio"]{
   margin-top: 20px;
 }
 .form-inner form .field input{
+  
+  background-color: #F8F9FA;
   height: 100%;
   width: 100%;
   outline: none;
   padding-left: 15px;
   border-radius: 5px;
   border: 1px solid lightgrey;
-  border-bottom-width: 2px;
+  border-bottom-width: 1px;
   font-size: 17px;
   transition: all 0.3s ease;
 }
@@ -142,7 +158,7 @@ form .field input:focus::placeholder{
 }
 .form-inner form .signup-link{
   text-align: center;
-  margin-top: 30px;
+  margin-top: 8px;
 }
 .form-inner form .pass-link a,
 .form-inner form .signup-link a{
