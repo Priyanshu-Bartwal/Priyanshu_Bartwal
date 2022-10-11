@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Oswald:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
-    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -158,6 +160,9 @@
     align-items: center;
     padding: 30px;
 }
+.container-first{
+    margin-top: 60px;
+}
 .textContent{
     width: 50%;
     justify-content: center;
@@ -165,7 +170,8 @@
     padding: 25px;
 }
 .heading{
-    font-family: 'Oswald', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
+    
     font-size: 250%;
     padding: 2px;
     line-height: 50px;
