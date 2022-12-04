@@ -8,6 +8,7 @@
     margin: 0;
     padding: 0;
     width: 100%;
+    /* overflow-x: hidden; */
 }
 .body{
     width: 100%;
@@ -137,7 +138,8 @@
 @media only screen and (max-width: 970px) {
     .navbar{
         /* height: 60px; */
-        position: fixed;
+        width: 100%;
+        /* position: fixed; */
     }
     .navbar-resp{
         position: fixed;
@@ -145,8 +147,12 @@
         margin-top: 60px;
         /* height: 169px; */
     }
+    .rightNavBar{
+        width: 45%;
+    }
     .rightNavBar a{
         visibility: hidden;
+        width: 0%;
     }
     .burger{
         width: 30px;
@@ -277,11 +283,12 @@
 } */
 @media only screen and (max-width: 970px){
     .container{
-        margin: 0px;
-        padding: 25px;
+        margin: 0px auto;
+        /* padding: 25px; */
         width: 100%;
-        align-items: flex-start;
+        /* align-items: flex-start; */
         flex-direction: column;
+        /* overflow: hidden; */
     }
     .heading{
         font-size: 200%;
@@ -418,7 +425,7 @@
 @media only screen and (max-width: 970px){
     .footer{
         flex-direction: column;
-        height: 800px;
+        height: 900px;
     }
     .leftFooter{
         width: 100%;
@@ -431,3 +438,6 @@
     }
 }
 
+/* .container{
+    max-width: 90vw;
+} */
