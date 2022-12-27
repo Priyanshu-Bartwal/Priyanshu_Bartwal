@@ -9,162 +9,135 @@
     <title>Display Teams</title>
 </head>
 <body>
+    <form action="/dashboard" method="POST">
+    
     <div class="container">
-        <div class="teamName">
-            <h1>Team - teamName</h1>
-            <p>Registered by - Priyanshu Bartwal (bartwalpriyanshu00@gmail.com)</p>
+        <div class="button createBtn">
+            <button> 
+                <div>
+                   <i class="fa-solid fa-pen-to-square"></i>
+                </div>
+                Create Team
+            </button>
         </div>
-
-        <!-- row 1 -->
         <div class="flex">
 
-            <!-- team leader -->
+            <!-- card -->
             <div class="card">
-
                 <div class="title">
-                    <div class="badge leader">
+                    <div class="badge badge-leader">
+                        <label for="team_name" class="form-label">
+                            Team Name
+                        </label> 
+                        <input type="text"
+                        class="custom-input"
+                        id="team_name"
+                        name="team_name"
+                        value="{{ team.team_name }}"
+                        />
+                    </div>
+
+                    <div class="button">
+                        <button disabled>
+                            <!-- <i class="fa-solid fa-pen-to-square"></i> -->
+                            Join Team
+                        </button>
+                    </div>
+                </div>
+                    <div class="leader">
+                        <p class="leader-name">Team Leader Name</p>
                         <i class="fa-solid fa-crown"></i>
-                        <p>Team Leader</p>
                     </div>
-                    <p class="name">
-                        Priyanshu Bartwal
-                    </p>
-                    <p class="mailID">
-                        bartwalpriyanshu00@gmail.com
-                    </p>
-                </div>
-
-                <p class="collegeName">
-                    National Instiute of Technology(NIT), Durgapur
-                </p>
-
-                <p class="phoneNumber">
-                    +91 9027788045
-                </p>
-
-                <div class="buttons flex">
-                    <!-- <div class="leftButton">
-                        <button><i class="fa-solid fa-pen-to-square"></i>Quick Edit</button>
-                    </div> -->
-
-                    <!-- <div class="rightButton">
-                        <button><i class="fa-solid fa-trash"></i>Delete</button>
-                    </div> -->
-                </div>
+                    <div class="teamMembers">
+                        <p class="name">Member1</p>
+                        <p class="name">Member2</p>
+                        <p class="name">Member3</p>
+                    </div>
             </div>
 
-            <!-- member 1 -->
+            <!-- card -->
             <div class="card">
-
                 <div class="title">
-                    <div class="badge member">
-                        <!-- <i class="fa-solid fa-crown"></i> -->
-                        <p>Team Member</p>
-                    </div>
-                    <p class="name">
-                        Priyanshu
-                    </p>
-                    <p class="mailID">
-                        priyanshuBartwal123@gmail.com
-                    </p>
-                </div>
-
-                <p class="collegeName">
-                    National Instiute of Technology(NIT), Durgapur
-                </p>
-
-                <p class="phoneNumber">
-                    +91 7351884545
-                </p>
-
-                <div class="buttons flex">
-                    <div class="leftButton">
-                        <button><i class="fa-solid fa-pen-to-square"></i>Quick Edit</button>
+                    <div class="badge badge-leader">
+                        <p>Team Name</p>
                     </div>
 
-                    <div class="rightButton">
-                        <button><i class="fa-solid fa-trash"></i>Delete</button>
+                    <div class="button">
+                        <button>
+                            <!-- <i class="fa-solid fa-pen-to-square"></i> -->
+                            Join Team
+                        </button>
                     </div>
                 </div>
+                    <div class="leader">
+                        <p class="leader-name">Team Leader Name</p>
+                        <i class="fa-solid fa-crown"></i>
+                    </div>
+                    <div class="teamMembers">
+                        <p class="name">Member1</p>
+                        <p class="name">Member2</p>
+                        <p class="name">Member3</p>
+                    </div>
             </div>
-
+            
         </div>
 
         <!-- row 2 -->
         <div class="flex">
 
-            <!-- member 2 -->
+            <!-- card -->
             <div class="card">
-
                 <div class="title">
-                    <div class="badge member">
-                        <!-- <i class="fa-solid fa-crown"></i> -->
-                        <p>Team Member</p>
-                    </div>
-                    <p class="name">
-                        Bartwal Priyanshu
-                    </p>
-                    <p class="mailID">
-                        bartwalpri123400@gmail.com
-                    </p>
-                </div>
-
-                <p class="collegeName">
-                    National Instiute of Technology(NIT), Durgapur
-                </p>
-
-                <p class="phoneNumber">
-                    +91 9027781234
-                </p>
-
-                <div class="buttons flex">
-                    <div class="leftButton">
-                        <button><i class="fa-solid fa-pen-to-square"></i>Quick Edit</button>
+                    <div class="badge badge-leader">
+                        <p>Team Name</p>
                     </div>
 
-                    <div class="rightButton">
-                        <button><i class="fa-solid fa-trash"></i>Delete</button>
+                    <div class="button">
+                        <button>
+                            <!-- <i class="fa-solid fa-pen-to-square"></i> -->
+                            Join Team
+                        </button>
                     </div>
                 </div>
+                    <div class="leader">
+                        <p class="leader-name">Team Leader Name</p>
+                        <i class="fa-solid fa-crown"></i>
+                    </div>
+                    <div class="teamMembers">
+                        <p class="name">Member1</p>
+                        <p class="name">Member2</p>
+                        <p class="name">Member3</p>
+                    </div>
             </div>
 
-            <!-- member 3 -->
+            <!-- card -->
             <div class="card">
-
                 <div class="title">
-                    <div class="badge member">
-                        <!-- <i class="fa-solid fa-crown"></i> -->
-                        <p>Team Member</p>
-                    </div>
-                    <p class="name">
-                        abcd
-                    </p>
-                    <p class="mailID">
-                        abcd123@gmail.com
-                    </p>
-                </div>
-
-                <p class="collegeName">
-                    National Instiute of Technology(NIT), Durgapur
-                </p>
-
-                <p class="phoneNumber">
-                    +91 9475827456
-                </p>
-
-                <div class="buttons flex">
-                    <div class="leftButton">
-                        <button><i class="fa-solid fa-pen-to-square"></i>Quick Edit</button>
+                    <div class="badge badge-leader">
+                        <p>Team Name</p>
                     </div>
 
-                    <div class="rightButton">
-                        <button><i class="fa-solid fa-trash"></i>Delete</button>
+                    <div class="button">
+                        <button>
+                            <!-- <i class="fa-solid fa-pen-to-square"></i> -->
+                            Join Team
+                        </button>
                     </div>
                 </div>
+                    <div class="leader">
+                        <p class="leader-name">Team Leader Name</p>
+                        <i class="fa-solid fa-crown"></i>
+                    </div>
+                    <div class="teamMembers">
+                        <p class="name">Member1</p>
+                        <p class="name">Member2</p>
+                        <p class="name">Member3</p>
+                    </div>
             </div>
-
+            
         </div>
+        
     </div>
-    
+</form>
 </body>
 </html>
